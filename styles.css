@@ -483,7 +483,7 @@ position: fixed;
 /* ハンバーガーメニュー */
 .hamburgerMenu {
 position: absolute;
-right: 1%;
+right: 7%;
 top: 50%;
 transform: translate(-5% , -50%);
 z-index: 2;
@@ -504,6 +504,9 @@ cursor : pointer;
   transition: all 1s ease-in-out;
   z-index: 1;
 
+ }
+ .link li a{
+   font-size: 46px;
  }
  /* JS用クラス */
 .open {
@@ -532,6 +535,7 @@ header {
 
 .f-logo {
   font-size: large;
+  z-index: 4;
 }
 
 .button {
