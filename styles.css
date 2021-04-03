@@ -159,6 +159,7 @@ header {
   height: 100%;
   align-items: center;
   /* background: green; */
+  padding-left: 60%;
 }
 
 .link li {
@@ -413,12 +414,11 @@ background-image: url(img/blackbox.png);
 }
 
 .profile-content p {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
   text-align: left;
   line-height: 1.2em;
   padding-top: 26px;
-  width: 400px;
+  width: 50%;
 }
 
 .profile-img img  {
@@ -506,7 +506,7 @@ cursor : pointer;
 
  }
  .link li a{
-   font-size: 46px;
+   font-size: 38px;
  }
  /* JS用クラス */
 .open {
@@ -540,6 +540,14 @@ header {
 
 .button {
   height: 50px;
+}
+
+.profile-content p {
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.2em;
+  padding-top: 26px;
+  width: 90%;
 }
 
 }
