@@ -1,0 +1,62 @@
+body {
+  font-family: AK-koroBokkur H, K, R;
+  background-image: url(img/bg-img.png);
+}
+
+.header-box{
+  
+  background-image: url(img/header-img.png);
+  
+  height: 600px;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.about-img img{
+  height: 100%;
+  border-radius: 50%;
+  border: skyblue;
+  border: green solid 2px;
+}
+.about-img {
+
+  /* height: 150px; */
+  
+}
+
+.main-1 {
+height: 200px;
+line-height: 200px;
+font-size: 20px;
+}
+
+.red {
+  color: red;
+  font-size: 1.5em;
+}
+
+ul  {
+list-style: none;
+}
+
+.nb-1{
+  color: pink;
+  font-size: 50px;
+  
+}
+
+.nb-2 {
+  color: skyblue;
+  font-size: 20px;
+}
+
+.nb-3 {
+  color:purple;
+  font-size: 10px;
+}
+
+.list {
+  margin-bottom: 50px;
+}
